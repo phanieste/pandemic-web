@@ -1,0 +1,5 @@
+title: Columbia Women's Ultimate Frisbee
+baseurl: "/cu/ultimate/women"
+
+excerpt_separator: <!-- more -->
+exclude: ['*.psd']
