@@ -7,7 +7,30 @@ html, body {
     font: 16px "Roboto",sans-serif;
 }
 
-/* ===== INTRO ===== */
+/* ================================
+ * NAVIGATION
+ * ================================ */
+
+ul.nav {
+  display: table;
+  float: none;
+  margin: 0 auto;
+}
+
+ul.nav a {
+  color: #fff;
+  text-transform: uppercase;
+}
+ul.nav a:hover {
+  background-color: transparent;
+}
+ul.nav a:visited {
+  background-color: transparent;
+}
+
+/* ================================
+ * INTRO
+ * ================================ */
 #intro-text {
   width: 100%;
   top: 40%;
@@ -17,7 +40,7 @@ html, body {
 }
 #intro-text h1 {
   color: #fff;
-  font: 8em "Montserrat",sans-serif;
+  font: 6em "Montserrat",sans-serif;
   font-weight: bold;
   letter-spacing: 7px;
   margin-top: -50px;
